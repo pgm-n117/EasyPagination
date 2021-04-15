@@ -20,7 +20,7 @@ export interface ExampleState{
 
 
 export default class Example extends React.Component<ExampleProps, ExampleState>{
-
+    private _allItems: string[];
 
     constructor(props: ListadoEmpleadosRRHHProps){
         super(props);
