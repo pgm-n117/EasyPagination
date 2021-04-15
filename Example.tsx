@@ -90,7 +90,6 @@ export default class Example extends React.Component<ExampleProps, ExampleState>
         this.setState({
             page: page,
             index: (page-1)*10,
-            selectionDetails: null
         });
     }
 
