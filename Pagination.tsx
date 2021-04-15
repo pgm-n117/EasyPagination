@@ -39,7 +39,7 @@ export default class PaginationClass extends React.Component<PaginationProps, Pa
                 <Stack horizontal horizontalAlign="center">
                     <PrimaryButton key='firstPage' onClick={() => this._onFirst()}  iconProps={{iconName: 'doubleChevronLeft'}} allowDisabledFocus disabled={false} width='auto'/>
                     <PrimaryButton key='back' onClick={() => this._onBack()}  iconProps={{iconName: 'ChevronLeft'}} allowDisabledFocus disabled={false} width='auto'/>
-                    <DefaultButton key='actual' allowDisabledFocus disabled={true}> Página {actualPage} de {this.props.totalPages}</DefaultButton>
+                    <DefaultButton key='actual' allowDisabledFocus disabled={true}> Page {actualPage} of {this.props.totalPages} </DefaultButton>
                     <PrimaryButton key='forward' onClick={() => this._onForward()}  iconProps={{iconName: 'ChevronRight'}} allowDisabledFocus disabled={false} width='auto'/>
                     <PrimaryButton key='lastPage'onClick={() => this._onLast()}  iconProps={{iconName: 'doubleChevronRight'}} allowDisabledFocus disabled={false} width='auto'/>
                 </Stack>
